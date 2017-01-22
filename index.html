@@ -1,0 +1,29 @@
+<html>
+<head>
+    <link href="./../css/pageME.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="./../js/pageME.js"></script>
+</head>
+<body>
+    <div>
+        <form name="homePageForm">
+                <div id="outerDiv">
+                    <div id="searchBoxDiv">                
+                        <input type="text" id="searchBox" title="Search for 
+
+Business or People..!" placeholder="Search for Business or People" 
+
+onkeyup="isEnter(keystroke);" />
+                    </div>
+                    <div id="submitButtonDiv">
+                        <input type="submit" id="submitButton" 
+
+onsubmit="getPages(homePageForm.searchBox.value);"/>
+                    </div>
+                </div>
+        </form>
+        <div id="contentArea">
+        
+        </div>
+    </div>
+</body>
+</html>
